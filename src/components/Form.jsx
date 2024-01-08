@@ -1,5 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
-import Styles from '../styles/Contact.module.css'
+import Styles from '../styles/contact.module.css'
 
 
 export default function ContactForm() {

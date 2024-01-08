@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Styles from '../styles/Carousel.module.css'
+import Styles from '../styles/carousel.module.css'
 import Carousel from 'react-bootstrap/Carousel';
-import Headshot from '../assets/Headshot.jpeg';
+import Headshot from '../assets/headshot.jpeg';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ControlledCarousel() {

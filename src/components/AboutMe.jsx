@@ -1,4 +1,4 @@
-import Styles from '../styles/AboutMe.module.css'
+import Styles from '../styles/aboutMe.module.css'
 import ControlledCarousel from './Carousel'
 
 

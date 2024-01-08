@@ -1,5 +1,5 @@
 import Headshot from '../assets/headshot.jpeg'
-import Styles from '../styles/Profile.module.css'
+import Styles from '../styles/profile.module.css'
 
 export default function Profile(){
     return (
