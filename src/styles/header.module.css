@@ -1,0 +1,20 @@
+/* Container for the Header, which holds multiple divs */
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6px;
+}
+
+/* Container which will hold all of the Nav Links */
+
+.links {
+    display: flex;
+    padding: 5% 5%;
+    gap: 1rem;
+    width: 50%;
+    justify-content: space-between;
+    left: 1rem;
+}
+
+
+

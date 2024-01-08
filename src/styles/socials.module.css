@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    padding-top: 1rem;
+}
+
+.icon {
+    width: 2.5rem;
+    fill: black;
+    z-index: 10;
+    
+}

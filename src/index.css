@@ -1,0 +1,28 @@
+/* This particular margin stops the background from being non central */
+* {
+    
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.125rem;
+    color: black;
+}
+
+/* Sets the page styling to be a flexbox */
+body {
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+}
+
+.divider {
+    border: 1.5px solid black;
+    width: 90%;
+    align-self: center;
+}
+
+.light-divider {
+    border: .5px solid black;
+    width: 90%;
+    align-self: center;
+}

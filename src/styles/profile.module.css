@@ -1,0 +1,16 @@
+/* Styling for the headshot image */
+
+.headshot {
+    width: 20vw;
+    border-radius: 50%;
+    padding-top: 1rem;
+}
+
+.aboutMe {
+    color: white;
+    background: transparent;
+    box-shadow: 0 0 2px 1px white;
+    padding: 1rem;
+    margin: 1rem; 
+    width: 50%;
+}

@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    overflow-wrap: normal;
+}
+
+.text {
+    width: 50%;
+    height: auto;
+}
+
+.formContainer {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 90%;
+    gap: .5rem;
+}
+
+.name {
+    display: flex;
+    gap: .5rem;
+}
+
+.email {
+    display: flex;
+    gap: .5rem;
+}
+
+.message {
+    display: flex;
+    gap: .5rem;
+    width: 100%;
+}
+
+.button {
+
+    padding: .5rem;
+}
