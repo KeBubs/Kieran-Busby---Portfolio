@@ -1,7 +1,10 @@
 /* Style settings for the Vanta.js background */
 .vanta {
     width: 100vw;
-    height: 200%;
+    height: 100vh;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 1;
 }
 
 .mainContainer {
