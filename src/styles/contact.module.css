@@ -18,6 +18,11 @@
     
 }
 
+.text {
+    width: 50%;
+    height: auto;
+}
+
 @media (max-width: 800px) {
     .container {
         flex-flow: column wrap;
@@ -25,12 +30,12 @@
     .formContainer {
         width: 90%;
     }
+    .text {
+        width: 90%;
+    }
 }
 
-.text {
-    width: 50%;
-    height: auto;
-}
+
 
 
 

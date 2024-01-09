@@ -11,3 +11,12 @@
     margin: 1rem;
     padding-left: 1rem;
 }
+
+@media (max-width: 800px) {
+    .container {
+        flex-flow: column wrap;
+    }
+    .text {
+        width: 90%;
+    }
+}
