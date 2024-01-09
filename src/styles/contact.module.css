@@ -5,7 +5,26 @@
     align-items: center;
     width: 90%;
     height: auto;
-    overflow-wrap: normal;
+
+    
+}
+
+.formContainer {
+    width: 50%;
+    height: auto;
+    /* display: flex; */
+    flex-direction: column;
+    margin-top: 1rem;
+    
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-flow: column wrap;
+    }
+    .formContainer {
+        width: 90%;
+    }
 }
 
 .text {
@@ -13,18 +32,11 @@
     height: auto;
 }
 
-.formContainer {
-    width: 50%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    
-}
+
 
 .form {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
     height: auto;
     width: 90%;
     gap: .5rem;
