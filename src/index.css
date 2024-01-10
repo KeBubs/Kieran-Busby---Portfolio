@@ -3,7 +3,7 @@
     
     font-family: 'Chakra Petch', sans-serif;
     font-size: 1.125rem;
-    color: black;
+    color: white;
 }
 
 /* Sets the page styling to be a flexbox */
@@ -17,13 +17,13 @@ body {
 }
 
 .divider {
-    border: 1.5px solid black;
+    border: 1.5px solid white;
     width: 90%;
     align-self: center;
 }
 
 .light-divider {
-    border: .5px solid black;
+    border: .5px solid white;
     width: 90%;
     align-self: center;
 }

@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     width: 95%;
 
 }
@@ -10,6 +10,8 @@
     height: auto;
     margin: 1rem;
     padding-left: 1rem;
+    justify-content: center;
+    align-self: center;
 }
 
 @media (max-width: 800px) {

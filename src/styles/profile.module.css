@@ -2,17 +2,23 @@
 
 .headshot {
     width: 20vw;
-    border-radius: 50%;
+    border-radius: 25%;
     padding-top: 1rem;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    width: 90%;
+    justify-content: space-between;
+}
+
 .aboutMe {
-    color: white;
-    /* background: transparent; */
-    box-shadow: 0 0 2px 1px white;
     padding: 1rem;
     margin: 1rem; 
     width: 50%;
+    align-self: center;
 }
 
 @media (max-width: 800px) {

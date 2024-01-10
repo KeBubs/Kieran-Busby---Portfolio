@@ -17,8 +17,8 @@ export default function App() {
     if (!vantaEffect) {
       setVantaEffect(TOPOLOGY({
         el: myRef.current,
-        color: 0x0,
-        backgroundColor: 0xffffff,
+        color: 0x566133,
+        backgroundColor: 0x2222,
         mouseControls: true,
   touchControls: true,
   gyroControls: false,

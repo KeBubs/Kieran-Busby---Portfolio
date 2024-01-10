@@ -1,0 +1,29 @@
+.container {
+    margin: 1rem;
+    padding: .5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid white;
+    max-width: 40%;
+}
+
+.title {
+
+}
+
+.middleSection {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1rem;
+}
+
+.image {
+    width: 40%;
+}
+
+.description {
+
+}
