@@ -22,7 +22,14 @@
 }
 
 @media (max-width: 800px) {
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
     .aboutMe {
         width: 90%;
+    }
+    .headshot {
+        width: 50vw;
     }
 }
