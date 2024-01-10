@@ -5,6 +5,10 @@ import BeyondBarriers from '../assets/BeyondBarriers.png'
 export default function Projects() {
     return (
         <div className={Styles.projectContainer}>
+            <section className={Styles.text}>
+                <h1 >Projects</h1>
+            </section>
+            
         {/* Start of Project Number One */}
         <div className={Styles.container}>
             <section className={Styles.title}>
@@ -29,7 +33,7 @@ export default function Projects() {
             </section>
             <section className={Styles.middleSection}>
                 <img className={Styles.image} src={BeyondBarriers}/>
-                <p>Created for an external staekholder, this Web App allows the user to search for venues by a venue name/type. Once the venues have been returned, they are then able to use the filters provided to find venues which are accessible to their needs. </p>
+                <p>Created for an external stakeholder, this Web App allows the user to search for venues by a venue name/type. Once the venues have been returned, they are then able to use the filters provided to find venues which are accessible to their needs. </p>
 
             </section>
             <section className={Styles.description}>

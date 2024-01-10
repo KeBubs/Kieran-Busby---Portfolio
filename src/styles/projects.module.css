@@ -8,6 +8,14 @@
     width: 90%;
 }
 
+.text {
+    width: 90%;
+    height: auto;
+    margin: 1rem ;
+    justify-content: center;
+    align-self: center;
+}
+
 
 /* Each individual project container  */
 .container {
