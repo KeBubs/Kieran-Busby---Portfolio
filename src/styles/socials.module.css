@@ -1,17 +1,23 @@
+.socials {
+    width: 100%;
+    align-content: center;
+    display: flex;
+}
+
 .container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 80%;
-    padding-top: 1rem;
+    width: 100%;
+    padding: 1rem;
     margin: 1rem;
     background-color: white;
+    opacity: 50%;
     border-radius: 30px;
-    /* overflow: hidden; */
 }
 
 .icon {
     width: 2.5rem;
     fill: white;
-    
+    align-self: center;
 }

@@ -1,7 +1,7 @@
 /* This particular margin stops the background from being non central */
 * {
     
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Ubuntu',sans-serif;
     font-size: 1.125rem;
     color: white;
     scroll-behavior: smooth;
@@ -15,6 +15,10 @@ body {
     
     /* position: relative; */
     /* z-index: -1; */
+}
+
+h3 {
+    text-decoration: underline;
 }
 
 .divider {

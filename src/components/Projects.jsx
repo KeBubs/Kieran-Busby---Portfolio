@@ -7,7 +7,7 @@ export default function Projects() {
         <>
         
         <section className={Styles.text}>
-                <h1 ><a id="projects">Projects</a></h1>
+                <h3 ><a id="projects">Projects</a></h3>
             </section>
         <div className={Styles.projectContainer}>
             
