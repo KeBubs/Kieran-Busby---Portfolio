@@ -4,6 +4,7 @@
     font-family: 'Chakra Petch', sans-serif;
     font-size: 1.125rem;
     color: white;
+    scroll-behavior: smooth;
 }
 
 /* Sets the page styling to be a flexbox */
@@ -24,10 +25,11 @@ body {
 
 .light-divider {
     border: .5px solid white;
-    width: 90%;
-    align-self: center;
+    width: 100%;
 }
 
-#root {
-    height: 100%;
+@media (max-width: 800px) {
+    .light-divider {
+        width: 90%;
+    }
 }

@@ -23,6 +23,7 @@
 .text {
     width: 50%;
     height: auto;
+    padding-top: 1rem;
 }
 
 @media (max-width: 800px) {
@@ -49,28 +50,46 @@
     display: flex;
     flex-flow: column wrap;
     height: auto;
-    width: 90%;
+    width: 100%;
     gap: .5rem;
     border: none;
 }
 
-.name {
+.nameText {
     display: flex;
     gap: .5rem;
+    margin-bottom: .5rem;
 }
 
-.email {
+.nameInput {
+    border-radius: 5px;
+}
+
+.emailText {
     display: flex;
     gap: .5rem;
+    margin-bottom: .5rem;
 }
 
-.message {
-    display: flex;
+.emailInput {
+    border-radius: 5px;
+}
 
-    width: 100%;
+.messageText {
+    display: flex;
+    width: 90%;
+    margin-bottom: .5rem;
+
+}
+
+.messageInput{
+    width: 90%;
+    border-radius: 5px;
 }
 
 .button {
-
-    padding: .5rem;
+    width: 92%;
+    color: black;
+    border-radius: 5px;
+    /* padding: .5rem; */
 }

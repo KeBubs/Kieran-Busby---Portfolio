@@ -4,10 +4,13 @@ import BeyondBarriers from '../assets/BeyondBarriers.png'
 
 export default function Projects() {
     return (
-        <div className={Styles.projectContainer}>
-            <section className={Styles.text}>
-                <h1 >Projects</h1>
+        <>
+        
+        <section className={Styles.text}>
+                <h1 ><a id="projects">Projects</a></h1>
             </section>
+        <div className={Styles.projectContainer}>
+            
             
         {/* Start of Project Number One */}
         <div className={Styles.container}>
@@ -42,5 +45,6 @@ export default function Projects() {
         </div>
         {/* End of Project Two  */}
         </div>
+        </>
     )
     }
